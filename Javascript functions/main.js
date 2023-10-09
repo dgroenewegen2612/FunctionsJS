@@ -48,7 +48,7 @@ function welcome(){console.log('welkom bij rocmondriaan')};
 
 welcome();
 
-//opdracht 3
+//opdr 3
 
 function calculate(x,y){
     const anwser= x*y;
@@ -74,3 +74,11 @@ function showNumberArray(){
 }
 
 showNumberArray();
+
+//popdracht 6
+function showBrandArray(){
+let brands=["mercedes",'tesla', 'peugeot','volkswagen'];
+console.log(brands)
+}
+
+showBrandArray()
