@@ -81,4 +81,113 @@ let brands=["mercedes",'tesla', 'peugeot','volkswagen'];
 console.log(brands)
 }
 
-showBrandArray()
+showBrandArray();
+
+////opdracht 7
+
+
+
+let computer = 7;
+
+let user = 5;
+
+let assignmentSeven = document.querySelector("#assignment-7")
+
+function gamble() {
+
+    
+    let higherLower = prompt("is jouw nummer hoger of lager?")
+
+    if (higherLower === "hoger") {
+
+        assignmentSeven.textContent = "Fout"
+
+    } else if (higherLower === "lager") {
+
+        assignmentSeven.textContent = "Goed"
+
+    }
+
+}
+
+ 
+
+gamble()
+
+
+
+ 
+
+console.log("opdracht 8------------------------------------------");
+
+//opdracht 8
+
+function showMassage(text1) {
+
+    console.log("Willekeurig tekst:", text1)
+
+}
+
+ 
+
+showMassage("Hallo");
+
+ 
+
+console.log("opdracht 9------------------------------------------");
+
+//opdracht 9
+
+function showNumbers(number1, number2) {
+
+    console.log("getallen", number1 + " - " + number2);
+
+}
+
+ 
+
+showNumbers(7, 10)
+
+ 
+
+console.log("opdracht 10 en 11------------------------------------------");
+
+//opdracht 10 en 11
+
+function showSum(sum1, sum2) {
+
+ 
+
+    console.log("getallen", sum1 + " - " + sum2);
+
+}
+
+ 
+
+    let result1 = "10 + 10";
+
+    let result2 = "20 + 20";
+
+showSum(result1, result2);
+
+ 
+
+console.log("opdracht 12------------------------------------------");
+
+//opdracht 12
+
+function concatenateStrings(text1, text2) {
+
+    text1 = "test1";
+
+    text2 = "test2";
+
+    console.log("text",text1 + " " + text2);
+
+}
+
+ 
+
+concatenateStrings()
+
+ 
