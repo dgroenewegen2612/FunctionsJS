@@ -146,7 +146,7 @@ function showNumbers(number1, number2) {
 
  
 
-showNumbers(7, 10)
+showNumbers(28, 10)
 
  
 
