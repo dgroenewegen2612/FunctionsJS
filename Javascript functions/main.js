@@ -96,7 +96,7 @@ let assignmentSeven = document.querySelector("#assignment-7")
 function gamble() {
 
     
-    let higherLower = prompt("is jouw nummer hoger of lager?")
+    let higherLower = prompt(" hoger of lager?")
 
     if (higherLower === "hoger") {
 
@@ -122,7 +122,7 @@ console.log("opdracht 8------------------------------------------");
 
 //opdracht 8
 
-function showMassage(text1) {
+function showMessage(text1) {
 
     console.log("Willekeurig tekst:", text1)
 
@@ -130,7 +130,7 @@ function showMassage(text1) {
 
  
 
-showMassage("Hallo");
+showMessage("Hallo");
 
  
 
