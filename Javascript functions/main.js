@@ -37,6 +37,30 @@ let product = calculateProduct(6,3)
 console.log('product is',product)
 //////////////
 
+
+
+//
+
+function numberShow(a,b){ console.log('a is ',a);
+console.log('b is ',b);}
+
+numberShow(12,24)
+
+//
+function showSum(a, b) {console.log('som is 4+5',4+5)
+    
+}
+
+
+showSum()
+
+
+//
+
+function fuseStrings(a,b) { const resultstring= a+" "+b;
+    console.log('fusedstring is', resultstring);
+}
+fuseStrings('Francis', 'Ngannou')
 //opdracht 1
 
 function greet(){console.log('Hello')};
@@ -190,4 +214,49 @@ function concatenateStrings(text1, text2) {
 
 concatenateStrings()
 
+//opdracht 13
+
+
+
+function showArray(list) { for( let i=0; i< list.length; i++){const x= list[i];
+console.log('computer:',i)}
+    
+
+    
+};
+
+const computers=['dell','hp','acer','asus'];
+console.log('computer=', computers)
+showArray(computers);
  
+// opdracht 15
+
+
+
+function getSum(x,y){
+    const XYsum= x+y;
+
+    return XYsum;
+}
+   const total= getSum(12,3);
+console.log('total is ', total);
+
+//opdracht 16
+function getProduct(x,y){
+    const XYproduct= x*y;
+
+    return XYproduct;
+}
+   const totalProduct= getProduct(12,3);
+console.log('total is ', totalProduct);
+//opdracht 17 
+function getDivision(a,divider){
+    if (divider===0) {return 0;
+        
+    }
+    
+    const divisionResult=a/divider
+    return divisionResult;
+};
+const divisiontotal = getDivision(8,2);
+console.log("Division is",divisiontotal );
